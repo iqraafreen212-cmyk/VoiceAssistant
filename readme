@@ -1,0 +1,68 @@
+Voice-Activated Personal Assistant
+
+Project Overview
+
+This project is a Python-based Voice-Activated Personal Assistant that can listen to user voice commands, process them, and provide responses through speech. The assistant is designed to perform basic tasks such as providing weather information, reading news headlines, and setting reminders.
+
+Features
+
+- Speech-to-Text conversion using Speech Recognition
+- Text-to-Speech responses
+- Weather information using Weather API
+- Latest news headlines
+- Reminder functionality
+- Voice-based user interaction
+
+Technologies Used
+
+- Python
+- SpeechRecognition
+- pyttsx3
+- Requests
+- NewsAPI
+- OpenWeatherMap API
+
+Project Structure
+
+VoiceAssistant/
+
+- main.py
+- speech.py
+- weather.py
+- news.py
+- reminder.py
+- README.md
+
+Installation
+
+1. Clone the repository.
+2. Install the required libraries:
+
+pip install SpeechRecognition pyttsx3 requests newsapi-python pyaudio
+
+3. Run the project:
+
+python main.py
+
+How It Works
+
+1. The assistant listens to the user's voice command.
+2. Speech Recognition converts the voice into text.
+3. The command is processed.
+4. The corresponding function is executed.
+5. The assistant responds using text-to-speech.
+
+Future Enhancements
+
+- Open applications using voice commands
+- Wikipedia search integration
+- Email and messaging support
+- AI-powered conversation capabilities
+
+Author
+
+Iqra Afreen
+
+Internship Project
+
+Developed as part of a Python Development Internship.
